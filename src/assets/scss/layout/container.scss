@@ -1,0 +1,29 @@
+body{
+  font-family: $primary-font;
+  font-size: 14px;
+}
+#main-container{
+  background-image: url("assets/images/glassy-effect.png");
+  -webkit-box-shadow: inset 0px 0px 1000px 2000px rgba(0,0,0,0.59);
+  -moz-box-shadow: inset 0px 0px 1000px 2000px rgba(0,0,0,0.59);
+  box-shadow: inset 0px 0px 1000px 2000px rgba(0,0,0,0.59);
+}
+#main-navigation{
+  figure img{
+    width: 320px;
+  }
+  .list-group{
+    a{
+      font-size: 1.5em;
+      background: none;
+      border: none;
+      text-align: center;
+      padding: 1em;
+      color: #FFF;
+      font-weight: bold;
+      &.active{
+        background: none;
+      }
+    }
+  }
+}
