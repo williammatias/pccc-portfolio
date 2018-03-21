@@ -4,21 +4,21 @@
 
   <div class="row">
 
-    <nav id="main-navigation" class="col-lg-3">
+    <nav id="main-navigation" class="col-lg-2">
       <figure>
-        <img src="../../assets/images/programmer-illustration.png" alt="Programmer Illustration">
+        <img class="img-fluid" src="../../assets/images/programmer-illustration.png" alt="Programmer Illustration">
       </figure>
       <div class="list-group">
-        <a href="#" class="list-group-item active">About</a>
-        <a href="#" class="list-group-item">Projects</a>
-        <a href="#" class="list-group-item">Contact</a>
+        <a routerLinkActive="active" routerLink="/about" class="list-group-item active">About</a>
+        <a routerLinkActive="active" routerLink="/projects"  class="list-group-item">Projects</a>
+        <a routerLinkActive="active" routerLink="/contact" class="list-group-item">Contact</a>
       </div>
     </nav>
     <!-- /.col-lg-3 -->
 
-    <div class="col-lg-9">
+    <section id="main-content" class="col-lg-10">
       <router-outlet></router-outlet>
-    </div>
+    </section>
     <!-- /.col-lg-9 -->
 
   </div>
